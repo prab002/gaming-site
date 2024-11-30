@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        zentary: ["Zentary", "sans-serif"],
         general: ["General", "sans-serif"],
+        "font-zentry": ["font-zentry", "sans-serif"],
         "circular-web": ["circular-web", "sans-serif"],
         "robert-medium": ["robert-medium", "sans-serif"],
         "robert-regular": ["robert-regular", "sans-serif"],
@@ -18,7 +18,7 @@ export default {
       colors: {
         blue: {
           50: "#DFDFF0",
-          75: "#DFDFFF2",
+          75: "#DFDFF2",
           100: "#F0F2FA",
           200: "#010101",
           300: "#4FB7DD",
