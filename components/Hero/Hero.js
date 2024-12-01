@@ -9,6 +9,9 @@ import dynamic from "next/dynamic";
 
 // import About from "../About/About";
 const About = dynamic(() => import("@/components/About/About"), { ssr: false });
+const Features = dynamic(() => import("@/components/Features/Features"), {
+  ssr: false,
+});
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -159,6 +162,7 @@ const Hero = () => {
         </h1>
       </section>
       <About />
+      <Features />
     </>
   );
 };
